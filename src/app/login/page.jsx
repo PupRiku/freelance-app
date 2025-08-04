@@ -21,7 +21,7 @@ export default function LoginPage() {
       return alert('Error: Could not authenticate user');
     }
 
-    router.push('/');
+    router.push('/admin/dashboard');
     router.refresh();
   };
 

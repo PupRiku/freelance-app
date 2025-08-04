@@ -1,6 +1,6 @@
-import { createClient } from '../lib/supabase/server';
+import { createClient } from '../../lib/supabase/server';
 import { redirect } from 'next/navigation';
-import SignOutButton from '../components/SignOutButton'; // We will create this next
+import SignOutButton from '../../components/SignOutButton'; // We will create this next
 
 export default async function DashboardPage() {
   const supabase = createClient();
